@@ -10,7 +10,7 @@ app.get('/username', (req, res) => res.json({ username: process.env.USERNAME }))
 
 app.get('/username_password', (req, res) => res.json({ username_password: process.env.ID_PASSWORD,
 														username: process.env.ID_PASSWORD_USR,
-														password: process.env.ID_PASSWORD_PSW}))
+														password: process.env.ID_PASSWORD_PSW }))
 
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
